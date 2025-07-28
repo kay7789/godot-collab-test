@@ -11,11 +11,12 @@
 script = ExtResource("1_7jx4h")
 
 [node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(70, 129)
 texture = ExtResource("2_jx76c")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 shape = SubResource("CircleShape2D_0fbrw")
 
 [node name="Sprite2D2" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(239, 20)
+position = Vector2(652, 251)
 texture = ExtResource("2_jx76c")
