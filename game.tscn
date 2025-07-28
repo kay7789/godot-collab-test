@@ -1,4 +1,4 @@
-[gd_scene load_steps=4 format=3 uid="uid://crdsvhvi1dd6j"]
+[gd_scene load_steps=4 format=3 uid="uid://coynphu0acpch"]
 
 [ext_resource type="Script" path="res://CharacterBody2D.gd" id="1_7jx4h"]
 [ext_resource type="Texture2D" uid="uid://rw2k1j1rwmh0" path="res://icon.svg" id="2_jx76c"]
@@ -15,3 +15,7 @@ texture = ExtResource("2_jx76c")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 shape = SubResource("CircleShape2D_0fbrw")
+
+[node name="Sprite2D2" type="Sprite2D" parent="CharacterBody2D"]
+position = Vector2(239, 20)
+texture = ExtResource("2_jx76c")
